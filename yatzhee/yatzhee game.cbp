@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="yatzhee" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/yatzhee" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/yatzhee" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Games/AmateurBot.cpp" />
+		<Unit filename="Games/AmateurBot.hpp" />
+		<Unit filename="Games/Dice.cpp" />
+		<Unit filename="Games/Dice.hpp" />
+		<Unit filename="Games/Die.cpp" />
+		<Unit filename="Games/Die.hpp" />
+		<Unit filename="Games/GreedyBot.cpp" />
+		<Unit filename="Games/GreedyBot.hpp" />
+		<Unit filename="Games/HumanPlayer.cpp" />
+		<Unit filename="Games/HumanPlayer.hpp" />
+		<Unit filename="Games/MethodicalBot.cpp" />
+		<Unit filename="Games/MethodicalBot.hpp" />
+		<Unit filename="Games/Player.cpp" />
+		<Unit filename="Games/Player.hpp" />
+		<Unit filename="Games/ScoreCard.cpp" />
+		<Unit filename="Games/ScoreCard.hpp" />
+		<Unit filename="Games/YahtzeeGame.cpp" />
+		<Unit filename="Games/YahtzeeGame.hpp" />
+		<Unit filename="Games/YahtzeeInterpreter.cpp" />
+		<Unit filename="Games/YahtzeeInterpreter.hpp" />
+		<Unit filename="Games/randgenerator.cpp" />
+		<Unit filename="Games/randgenerator.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
